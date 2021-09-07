@@ -8,14 +8,33 @@
 /* tag */
 
 header, main, footer{
-    width: 50%;
+    width: 920px;
     margin: auto;
 }
 
 header{
-    height: 100px;
-    background-color: darkorchid;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+header img{
+    width: 150px;
+    border-right: 1px solid lightgray;
+    padding-right: 15px;
+    margin-bottom: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: gray;
+    padding: 10px;
+    font-size: 12px;
+    margin-left: -10px;
 }
 
 footer{

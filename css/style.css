@@ -12,6 +12,10 @@ header, main, footer{
     margin: auto;
 }
 
+h1{
+    font-size: 25px;
+}
+
 header{
     margin-top: 25px;
     margin-bottom: 25px;
@@ -86,14 +90,16 @@ footer{
 }
 
 .box_2{
-    background-color: royalblue;
     padding-bottom: 10px;
 }
 
 .box_2_header{
-    height: 50px;
-    background-color: skyblue;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.box_2_header p{
+    font-size: 11px;
+    color: gray;
 }
 
 .row{

@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* tag */
+
+header, main, footer{
+    width: 50%;
+    margin: auto;
+}
+
+header{
+    height: 100px;
+    background-color: darkorchid;
+    margin-top: 20px;
+}
+
+footer{
+    height: 50px;
+    background-color:purple;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+/* classi */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hero_section{
+    height: 300px;
+    background-color: goldenrod;
+    margin: 15px 0;
+}
+
+.box_2{
+    background-color: royalblue;
+    padding-bottom: 10px;
+}
+
+.box_2_header{
+    height: 50px;
+    background-color: skyblue;
+    margin-bottom: 10px;
+}
+
+.row{
+    width: 100%;
+    height: 300px;
+}
+
+.column{
+    float: left;
+    background-color: skyblue;
+    height: 300px;
+}
+
+.short.column{
+    width: 25%;
+}
+
+.long.column{
+    width: calc(50% - 20px);
+    margin: 0 10px;
+}

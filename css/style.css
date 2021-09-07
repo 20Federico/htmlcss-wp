@@ -54,9 +54,35 @@ footer{
 }
 
 .hero_section{
-    height: 300px;
-    background-color: goldenrod;
-    margin: 15px 0;
+    height: 350px;
+    /* background-image: url(../img/banner.jpg); */
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.hero_section::after{
+    position: fixed;
+    background-color: black;
+}
+
+.hero_section_description{
+    width: 50%;
+    position: absolute;
+    left: 40px;
+    bottom: 50px;
+    color: white;
+}
+
+.hero_section_description p:first-child{
+    font-size: larger;
+}
+
+.hero_section_description p:last-child{
+    font-size: smaller;
 }
 
 .box_2{

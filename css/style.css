@@ -12,8 +12,9 @@ header, main, footer{
     margin: auto;
 }
 
-h1{
-    font-size: 25px;
+h5{
+    padding: 10px 0;
+    color: rgb(58, 58, 58);
 }
 
 header{
@@ -59,8 +60,7 @@ footer{
 
 .hero_section{
     height: 350px;
-    /* background-image: url(../img/banner.jpg); */
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/banner.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/banner.jpg);
     background-size: cover;
     background-position: center;
     margin-bottom: 25px;
@@ -98,26 +98,45 @@ footer{
 }
 
 .box_2_header p{
-    font-size: 11px;
+    font-size: 13px;
     color: gray;
-}
-
-.row{
-    width: 100%;
-    height: 300px;
 }
 
 .column{
     float: left;
-    background-color: skyblue;
-    height: 300px;
+    width: 20%;
 }
 
-.short.column{
-    width: 25%;
-}
-
-.long.column{
-    width: calc(50% - 20px);
+.big.column{
+    width: calc(60% - 20px);
     margin: 0 10px;
+}
+
+.column_image img{
+    width: 100%;
+    height: 150px;
+}
+
+.column_image.one{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/img-1.jpg);
+}
+
+.column_image.two{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/banner-2.jpg);
+}
+
+.column_image.three{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/img-3.jpg);
+}
+
+.column .column_image{
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.column p{
+    font-size: 11px;
+    color: gray;
 }
